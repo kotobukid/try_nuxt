@@ -1,8 +1,5 @@
-<template lang="pug">
-  div
-    span.orange AAA
-    br
-    span hello nuxt
+<template>
+  <NuxtPage />
 </template>
 
 <style lang="less">

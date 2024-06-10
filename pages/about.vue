@@ -7,6 +7,11 @@
 </template>
 
 <script lang="ts">
+import { useHeadTitle } from '~/helpers/useHeadTitle'
+import { useHead } from '#imports'
+
+const headTitle = useHeadTitle('About')
+useHead(headTitle);
 export default {
   name: 'AboutPage'
 }
